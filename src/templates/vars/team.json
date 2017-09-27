@@ -1,0 +1,54 @@
+{
+  "team": [
+    {
+      "name": "Beth",
+      "carousel": true,
+      "modalTarget": "beth",
+      "image": "beth.jpg",
+      "title": "Office Manager",
+      "text": [
+        " "
+      ]
+    },
+    {
+      "name": "Jessica",
+      "carousel": true,
+      "modalTarget": "jessica",
+      "image": "jessica.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        " "
+      ]
+    },
+    {
+      "name": "Kayla",
+      "carousel": true,
+      "modalTarget": "kayla",
+      "image": "kayla.jpg",
+      "title": "Hygenist",
+      "text": [
+        " "
+      ]
+    },
+    {
+      "name": "Karissa",
+      "carousel": true,
+      "modalTarget": "karissa",
+      "image": "karissa.jpg",
+      "title": "Hygienist",
+      "text": [
+        " "
+      ]
+    },
+    {
+      "name": "Sharon",
+      "carousel": true,
+      "modalTarget": "sharon",
+      "image": "sharon.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        " "
+      ]
+    }
+  ]
+}

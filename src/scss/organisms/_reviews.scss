@@ -1,0 +1,44 @@
+#section-reviews {
+  background-image: url('/assets/reviews-bg.jpg');
+  padding-bottom: 35px;
+  border-bottom: none;
+
+  .heading {
+    padding-top: 0;
+    text-align: center;
+    margin-top: $spacing-md;
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.5;
+    font-style: normal;
+  }
+
+  .review-image {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .row--flexed {
+    @media (min-width: 768px) {
+      display: flex;
+
+      [id^="bf-revz-widget-"] {
+        height: 100%;
+      }
+
+      iframe {
+        height: 100%;
+      }
+    }
+  }
+
+  @include birdeye-footer(#fff, false);
+
+  .bf-spn {
+    font-family: $ff-lato;
+  }
+}
