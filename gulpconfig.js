@@ -1,7 +1,7 @@
 module.exports = {
   browserSync: {
     enabled: true,
-    port: 3030,
+    port: 3050,
     watchFiles: [],
     baseDir: 'build/',
     startPath: '/',
@@ -16,15 +16,20 @@ module.exports = {
   css: {
     enabled: true,
     source: [
-      'src/scss/styles.scss',
+      'src/scss/custom.scss',
     ],
-    includePaths: [],
+    dependencies: [
+      'src/canvas/styles.scss',
+    ],
+    includePaths: [
+      'src/canvas/css/',
+    ],
     dest: 'build/css/',
+    dependenciesDest: 'build/css/',
     watchPaths: [
       'src/scss/**/*.scss'
     ],
-    // Lint css using .stylelintrc.js settings
-    lint: true,
+    lint: false,
     // outputStyles maybe 'expanded', 'compressed', 'nested'
     outputStyle: 'expanded',
     sourceMapEmbed: true,
@@ -33,9 +38,9 @@ module.exports = {
       'last 2 versions',
       'IE >= 10',
     ],
-    flattenOutput: false,
+    flattenOutput: true,
     sassdoc: {
-      enabled: true,
+      enabled: false,
       dest: 'sassdoc',
       verbose: false,
       exclude: [],
@@ -48,16 +53,21 @@ module.exports = {
     destFileName: 'scripts.js',
     babel: false,
     uglify: false,
-    sourceMapEmbed: true,
-    includePaths: [],
-    // Lint javascript using .eslintrc.js settings
+    sourceMap: false,
+    includePaths: [
+      'src/canvas/js/jquery.js',
+      'src/canvas/js/jquery.gmap.js',
+      'src/canvas/js/plugins.js',
+      'src/canvas/js/functions.js',
+      'src/canvas/js/lodash.js',
+      'src/canvas/js/hwd.ts.js',
+    ],
     eslint: {
-      enabled: true,
+      enabled: false,
       sources: [
         'src/js/**/*.js',
       ],
     },
-    // Generate documentation from inline js comments using /** ... */  Note: This package can take a long time to compile
     documentationJs: {
       enabled: false,
       sources: [
@@ -70,25 +80,28 @@ module.exports = {
   },
   html: {
     enabled: true,
-    // Source html files. If using Twig.js, these will be .twig files
     sources: [
-      'src/index.html',
+      'src/index.twig',
+      'src/accessibility.twig',
     ],
     dest: 'build/',
-    // Html Validator
     lint: true,
-    // Twig.js, Javascript implementation of Twig
     twig: {
-      enabled: false,
-      // Directory of pratials
+      enabled: true,
       baseDir: 'src/templates/',
+      dataSrc: [
+        'src/templates/vars/general.json',
+        'src/templates/vars/services.json',
+        'src/templates/vars/team.json',
+      ],
     },
   },
   assets: {
-    //clean pipe, no compiling, use this move images and other static content from src to build
+    //clean pipe, no compiling
     enabled: true,
     sources: [
-      'src/assets/**/*.*',
+        'src/assets/**/*.*',
+        'src/**/*.pdf',
     ],
     dest: 'build/assets/',
   }
