@@ -128,10 +128,11 @@
         items: 3
       },
       992: {
-        items: 4
+        items: 4,
+        autoplay: false
       }
     },
-    margin: 30
+    margin: 15
   });
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 

@@ -1,13 +1,25 @@
 {
   "team": [
     {
-      "name": "Beth",
+      "name": "Lori",
       "carousel": true,
-      "modalTarget": "beth",
-      "image": "beth.jpg",
+      "modalTarget": "lori",
+      "image": "lori.jpg",
       "title": "Office Manager",
       "text": [
-        " "
+        "One of our hygienists, Lori Picard, her husband Steve and two sons, reside in Ronan, MT. Lori graduated from Carroll College with a BA degree and has practiced dental hygiene exclusively in Montana for the past 25 years.",
+        "Routine prevention is the foundation of our best dental care. A dental hygienist is a valuable asset in our dental practice.  In addition to performing technical duties, Lori plays an important role in teaching patients appropriate oral hygiene techniques and counseling them regarding good nutrition and its impact on oral health.",
+        " Lori is a member of the American Dental Hygienists’ Association. As a member of the Montana Dental Hygienists’ Association, she has served as a Board Member, Treasurer and Continuing Education Coordinator."
+      ]
+    },
+    {
+      "name": "Laurie",
+      "carousel": true,
+      "modalTarget": "laurie",
+      "image": "laurie.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        "Being a native of Montana, I enjoy many outdoor activities such as golf, hiking, skiing and camping. I have been working in the dental profession since 1997 in western Montana and joined Big Sky Dental Clinic in November of 2005. I thoroughly enjoy working in dentistry, especially with Dr. Clave and his fantastic staff!"
       ]
     },
     {
@@ -17,37 +29,17 @@
       "image": "jessica.jpg",
       "title": "Dental Assistant",
       "text": [
-        " "
+        " Jess has lived in Montana since 2000, from growing up as an ARMY brat. She attended Salish Kootenai College for Dental Assisting Technology in 2008 and received her C.D.A and has been at Big Sky Dental Clinic since July 2008.  She loves her career and loves meeting and caring for patients.  In her free time, she enjoys spending time with family and friends and outdoor activities.  Jess's laugh is very unique and you're sure to know which one she is when you walk through the door"
       ]
     },
     {
-      "name": "Kayla",
+      "name": "Leona",
       "carousel": true,
-      "modalTarget": "kayla",
-      "image": "kayla.jpg",
-      "title": "Hygenist",
-      "text": [
-        " "
-      ]
-    },
-    {
-      "name": "Karissa",
-      "carousel": true,
-      "modalTarget": "karissa",
-      "image": "karissa.jpg",
-      "title": "Hygienist",
-      "text": [
-        " "
-      ]
-    },
-    {
-      "name": "Sharon",
-      "carousel": true,
-      "modalTarget": "sharon",
-      "image": "sharon.jpg",
+      "modalTarget": "leona",
+      "image": "leona.jpg",
       "title": "Dental Assistant",
       "text": [
-        " "
+        "Leona is a Montana native, and has been a hygienist for over 10 years.  “I love what I do!” She believes knowledge is the key to a healthy smile, and she really enjoys helping others achieve their dental goals with a kind and gentle approach."
       ]
     }
   ]
