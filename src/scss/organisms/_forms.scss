@@ -1,5 +1,5 @@
 #section-forms {
-  background-color: #47c8da;
+  background-color: #cbe6f8;
   padding: 15px 0;
   border-bottom: solid 2px #fff;
 
@@ -16,7 +16,7 @@
     padding-bottom: 15px;
 
     &__title {
-      color: #fff;
+      color: #3b3b3b;
       line-height: 1;
       padding-bottom: 0;
       padding-top: 10px;
@@ -24,7 +24,7 @@
     }
 
     &__copy {
-      color: #fff;
+      color: #3b3b3b;
       font-family: $ff-open;
       padding-top: 20px;
     }
@@ -36,18 +36,18 @@
 
   .forms {
     &__byline {
-      color: #fff;
+      color: #3b3b3b;
       font-size: 18px;
       padding-bottom: 15px;
     }
 
     &__copy {
-      color: #fff;
+      color: #3b3b3b;
       font-family: $ff-open;
     }
 
     &a:hover {
-      color: #fff;
+      color: #3b3b3b;
     }
   }
 
