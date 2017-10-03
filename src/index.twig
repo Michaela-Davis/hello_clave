@@ -33,24 +33,27 @@
 
         {# {% include 'organisms/specials--three-card.twig' %} #}
 
+        {# {% include 'molecules/cta__two-to-one.twig' with {
+            id: 'cta-two'
+        } %} #}
+
         {# {% include 'organisms/reviews.twig' %} #}
-
-        {# {% include 'organisms/insurance.twig' %} #}
-
-        {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'cta-two',
-            existingPatients: true
-        } %}
 
         {# {% include 'organisms/services.twig' %} #}
 
+        {# {% include 'organisms/insurance.twig' %} #}
+
         {# {% include 'organisms/tour.twig' %} #}
 
-        {% include 'molecules/slab__care-credit.twig' %}
+        {# {% include 'molecules/cta__two-to-one.twig' with {
+            id: 'cta-three'
+        } %} #}
+
+        {# {% include 'molecules/slab__care-credit.twig' %} #}
         
         {% include 'organisms/forms.twig' %}
 
-        {# {% include 'organisms/location.twig' %} #}
+        {% include 'organisms/location.twig' %}
 
     </div>
 

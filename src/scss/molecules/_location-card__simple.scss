@@ -27,46 +27,28 @@
       }
     }
     // max-height: 200px;
-    width: 421px;
+    max-width: 262px;
   }
 
   &__content {
     text-align: center;
   }
 
-  &__doctor {
-    color: #2e4a6f;
-    font-weight: 700;
-    line-height: 1;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: $ff-raleway;
-
-    @include font-size(24px, 24px, 28px, 26px, 25px);
-
-    &--title {
-      color: #2e4a6f !important;
-      font-weight: 700;
-
-      @include font-size(20px, 20px, 24px, 22px, 21px);
-    }
-  }
-
   &__address {
     color: #000;
     font-size: 20px;
-    margin-top: 20px;
+    margin: 0;
     font-family: $ff-open;
     font-weight: 400;
   }
 
   &__map-link {
-    color: #25a1b2;
+    color: #6fba11;
     text-decoration: underline;
     font-size: 20px;
     // letter-spacing: 1px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
     font-family: $ff-lato;
     font-weight: 400;
   }
@@ -76,14 +58,14 @@
     font-size: 24px;
     margin-bottom: 0;
     line-height: 1;
-    font-family: $ff-open;
+    font-family: $ff-lato;
     letter-spacing: -0.97px;
   }
 
   &__new-patient-number {
     display: block;
     font-weight: 900;
-    color: #2e4a6f;
+    color: #2e2e2e;
     font-family: $ff-lato;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -92,7 +74,7 @@
     @include font-size(40px, 40px, 36px, 36px, 32px);
 
     &:hover {
-      color: #345a75;
+      color: #2e2e2e;
       text-decoration: none;
     }
   }
@@ -126,24 +108,29 @@
     letter-spacing: -0.93px;
   }
 
+  &-btn {
+    margin-top: 25px;
+    box-shadow: 0 3px rgba(211, 90, 7, 1);
+  }
+
   .hours-table {
-    padding-bottom: 35px;
-    padding-top: 20px;
+    padding: 20px 0;
 
     h5 {
       line-height: 1;
       margin-bottom: 0;
       font-weight: 700;
       font-size: 24px;
-      color: #2e4a6f;
+      color: #2e2e2e;
       font-family: $ff-lato;
     }
 
     p {
-      color: #444;
+      color: #000;
       line-height: 1;
       margin: 0 auto;
-      font-family: $ff-open;
+      font-family: $ff-lato;
+      font-size: 24px;
     }
   }
 }
