@@ -2,7 +2,7 @@
 .cta {
   position: relative;
   z-index: 100;
-  background-color: #1082c9;
+  background-color: #fff;
   background-position: center;
   padding: 5px 0 15px;
   border-top: solid 3px #fff;
@@ -34,7 +34,7 @@
       .vertical-break {
         width: 2px;
         height: 60px;
-        background-color: #fff;
+        background-color: #2e2e2e;
       }
     }
 
@@ -72,8 +72,8 @@
 
   &__new {
     &-text {
-      font-family: $ff-open;
-      color: #fff;
+      font-family: $ff-lato;
+      color: #2e2e2e;
       margin-bottom: 0;
       font-weight: 400;
 
@@ -81,7 +81,7 @@
     }
 
     &-number {
-      color: #fff;
+      color: #2e2e2e;
       font-family: $ff-lato;
       font-weight: 900;
       line-height: 1;
@@ -90,7 +90,7 @@
       font-size: 36px;
 
       a {
-        @include link-color(#fff);
+        @include link-color(#2e2e2e);
 
         &:hover {
           text-decoration: none;
@@ -100,11 +100,11 @@
   }
 
   &__existing-patient {
-    color: #fff;
+    color: #565656;
     line-height: 1.7;
     font-size: 20px;
     margin-bottom: 0;
-    font-family: $ff-open;
+    font-family: $ff-lato;
 
     @include font-size(20px, 20px, 16px, 14px, 14px);
 
@@ -113,7 +113,7 @@
     }
 
     .phone-number--existing {
-      @include link-color(#fff);
+      @include link-color(#565656);
       @include font-size(20px, 20px, 20px, 18px, 18px);
 
       &:hover {
