@@ -15,13 +15,13 @@
     }
     %}
 
-    {% include 'organisms/marquee.twig' %}
+    {# {% include 'organisms/marquee.twig' %} #}
 
     <!-- Content
   ============================================= -->
 
     <div id="content" >
-        <div class="cta " id="cta-one">
+        {# <div class="cta " id="cta-one">
             <div class="container center">
                 <div class="flex-wrapper">
                     <div class="cta__btn flex-wrapper__item">
@@ -37,31 +37,29 @@
                 <p class="cta__existing-patient hidden-md hidden-lg">Existing Patients<br> <a href="tel:+4068835544" class="phone-number phone-number--existing">(406)&nbsp;883-5544</a></p>
                 <p class="cta__existing-patient hidden-xs hidden-sm">Existing Patients:  <a href="tel:+4068835544" class="phone-number phone-number--existing">(406)&nbsp;883-5544</a></p>
             </div>
-        </div>
+        </div> #}
 
-        {% include 'organisms/about.twig' %}
+        {# {% include 'organisms/about.twig' %}
 
         {% include 'molecules/team__carousel.twig' %}
 
-        {% include 'organisms/specials--three-card.twig' %}
+        {% include 'organisms/specials--three-card.twig' %} #}
 
         {# {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-two'
         } %} #}
 
-        {% include 'organisms/reviews.twig' %}
+        {# {% include 'organisms/reviews.twig' %} #}
 
-        {# {% include 'organisms/services.twig' %} #}
+        {% include 'organisms/services.twig' %}
 
-        {% include 'organisms/insurance.twig' %}
-
-        {# {% include 'organisms/tour.twig' %} #}
+        {# {% include 'organisms/insurance.twig' %} #}
 
         {# {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-three'
         } %} #}
-
-        {# {% include 'molecules/slab__care-credit.twig' %}
+{# 
+        {% include 'molecules/slab__care-credit.twig' %}
         
         {% include 'organisms/forms.twig' %}
 
