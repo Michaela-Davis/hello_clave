@@ -50,8 +50,6 @@
 
   .insurance__copy {
     color: $c-copy;
-    // list-style-type: circle;
-    // margin-bottom: 10px;
     line-height: 1.5;
 
     @include font-size(16px, 16px, 14px, 16px, 14px);
