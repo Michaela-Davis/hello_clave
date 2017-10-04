@@ -108,7 +108,7 @@
         autoplay: false
       },
       992: {
-        items: 4,
+        items: 3,
         autoplay: false
       }
     }

@@ -1,7 +1,7 @@
 .associations-carousel {
-  background-color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  @media (min-width: 1200px) {
+    padding: 30px;
+  }
 
   .logo-wrapper {
     text-align: center;
