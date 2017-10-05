@@ -92,15 +92,37 @@
   }
 
   @media (min-width: 992px) {
+    .notJustAnEmptyDiv {
+      width: 130px;
+      height: 130px;
+    }
+
+    .logo-image-wrapper {
+      width: 130px;
+      position: relative;
+
+      div {
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+
+        img {
+          position: absolute;
+          width: 97%;
+          z-index: 10;
+        }
+      }
+    }
+
     :not(.static-sticky) #primary-menu {
       height: 100%;
+      width: 100%;
       display: flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
 
       ul li {
-        padding-top: 38px;
-        padding-bottom: 15px;
+        padding: 0;
       }
     }
   }
