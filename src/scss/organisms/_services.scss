@@ -1,5 +1,6 @@
 #section-services {
   text-align: left;
+  padding-bottom: 30px;
 
   .services {
     &__heading {
@@ -64,5 +65,19 @@
     margin-bottom: 0;
 
     @include font-size(17px, 16px, 14px, 15px, 14px);
+  }
+
+  .card__image--fix {
+    @media screen and (min-width: 768px) {
+      height: 228.5px;
+    }
+
+    @media screen and (min-width: 992px) {
+      height: 300px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      height: 364.5px;
+    }
   }
 }
