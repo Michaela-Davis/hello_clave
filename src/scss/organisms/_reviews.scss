@@ -16,13 +16,17 @@
 
   .heading {
     padding-top: 0;
-    text-align: left;
+    text-align: center;
     margin-top: $spacing-md;
     margin-bottom: 15px;
     color: #292929;
     font-weight: 900;
     line-height: 1.5;
     font-style: normal;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   .row--flexed {
@@ -36,6 +40,14 @@
       iframe {
         height: 100%;
       }
+    }
+  }
+
+  iframe {
+    max-height: 350px;
+
+    @media screen and (min-width: 992px) {
+      max-height: 550px;
     }
   }
 
