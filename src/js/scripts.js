@@ -53,7 +53,7 @@
     autoplay: true,
     navText: [
       '<img src="assets/arrow-left.png">',
-      '<img src="assets/right-arrow.png">'
+      '<img src="assets/arrow-right.png">'
     ],
     responsive: {
       550: {
@@ -73,7 +73,7 @@
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
   // ======= Google Maps =======
-  HelloWorldDevsTysonSteele.googleMap('#google-map5', '47.694916,-114.1635727', '47.694916,-114.1635727');
+  HelloWorldDevsTysonSteele.googleMap('#google-map5', '47.694916,-114.161384', '47.694916,-114.161384');
 
   $('#gallery-btn').click( function(e) {
     e.preventDefault();

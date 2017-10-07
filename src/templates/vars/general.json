@@ -5,7 +5,7 @@
   "mainDoctor" : "Dr. Chris Clave",
   "newPhone" : "+18886169609",
   "newPhoneNoBreak" : "(888)&nbsp;616-9609",
-  "existingPhone" : "+4068835544",
+  "existingPhone" : "+14068835544",
   "existingPhoneNoBreak" : "(406)&nbsp;883-5544",
   "addressFirst" : "102 1st Avenue East",
   "addressLast" : "Polson, MT 59860",
@@ -13,7 +13,7 @@
   "birdeyeScript" : "https://birdeye.com/embed/v4/148539096609181/3/950021842",
   "insuranceLink" : "https://big-sky-dental-clinic.illumitrac.com/#programs",
   "careCreditLink" : "https://www.carecredit.com/doctor-locator/General-Dentistry-in-POLSON-MT-59860/Big-Sky-Dental-Clinic/",
-  "googleMap" : "https://www.google.com/maps/place/Big+Sky+Dental+Clinic:+Chris+Clave+DMD/@47.694916,-114.1635727,17z/data=!4m13!1m7!3m6!1s0x53677388c2221341:0xfece581bc7192c86!2s102+1st+Ave+E,+Polson,+MT+59860!3b1!8m2!3d47.694916!4d-114.161384!3m4!1s0x53677388be1a451d:0x9d7f0d815d95d88!8m2!3d47.694916!4d-114.161384?hl=en",
+  "googleMap" : "https://www.google.com/maps/place/Big+Sky+Dental+Clinic:+Chris+Clave+DMD/@47.694916,-114.161384,14z/data=!4m13!1m7!3m6!1s0x53677388c2221341:0xfece581bc7192c86!2s102+1st+Ave+E,+Polson,+MT+59860!3b1!8m2!3d47.694916!4d-114.161384!3m4!1s0x53677388be1a451d:0x9d7f0d815d95d88!8m2!3d47.694916!4d-114.161384?hl=en",
   "socialMediaLinks": [
     {
       "media": "facebook",
@@ -21,7 +21,7 @@
     },
     {
       "media": "google-plus",
-      "link": "https://www.google.com/maps/place/Big+Sky+Dental+Clinic:+Chris+Clave+DMD/@47.694916,-114.1635727,17z/data=!4m13!1m7!3m6!1s0x53677388c2221341:0xfece581bc7192c86!2s102+1st+Ave+E,+Polson,+MT+59860!3b1!8m2!3d47.694916!4d-114.161384!3m4!1s0x53677388be1a451d:0x9d7f0d815d95d88!8m2!3d47.694916!4d-114.161384?hl=en"
+      "link": "https://www.google.com/maps/place/Big+Sky+Dental+Clinic:+Chris+Clave+DMD/@47.6949196,-114.1635727,17z/data=!3m1!4b1!4m15!1m7!3m6!1s0x53677388c2221341:0xfece581bc7192c86!2s102+1st+Ave+E,+Polson,+MT+59860!3b1!8m2!3d47.694916!4d-114.161384!3m6!1s0x53677388be1a451d:0x9d7f0d815d95d88!8m2!3d47.694916!4d-114.161384!9m1!1b1?hl=en"
     }
   ]
 }
